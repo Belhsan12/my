@@ -22,7 +22,7 @@ function App() {
   <HeroSection />
   <main id="main">
     <AboutSection />
-    <FactsSection />
+    {show && <FactsSection />}
     <Skills />
     <ResumeSection />
     {show &&<Portfolio />}
