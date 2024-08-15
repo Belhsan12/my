@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/fbnaffeti/" className="facebook"><i className="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/belhsan_n/" className="instagram"><i className="bx bxl-instagram"></i></a>
-          <a href="https://github.com/Belhsan12" className="google-plus"><i className="bx bxl-github"></i></a>
+          <a href="https://server-liard-theta.vercel.app/auth" className="google-plus"><i className="bx bxl-github"></i></a>
           <a href="https://www.linkedin.com/in/naffeti-belhsan-695530215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="linkedin"><i className="bx bxl-linkedin"></i></a>
         </div>
         <div className="copyright">
