@@ -22,7 +22,7 @@ const Footer = () => {
           {/* You can delete the links only if you purchased the pro version. */}
           {/* Licensing information: [license-url] */}
           {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ */}
-          Designed by <a href="https://www.linkedin.com/in/belhsan-naffeti-695530215/">Belhsan Naffeti</a>
+          Designed by <a href="https://server-liard-theta.vercel.app/auth">Belhsan Naffeti</a>
         </div>
       </div>
     </footer>
