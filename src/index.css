@@ -1,13 +1,32 @@
+/* src/index.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark text */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.profile-card {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #e0e0e0; /* Subtle border */
+}
+
+.profile-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; /* Enhanced shadow on hover */
+  transform: translateY(-5px);
+}
+
+.profile-icon {
+  font-size: 3rem;
+  color: #6c757d; /* Muted icon color */
+  margin-bottom: 1rem;
+}
+
+.badge-student {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: white;
+  padding: 0.4em 0.8em;
+  border-radius: 0.25rem;
+  font-weight: 500;
 }
